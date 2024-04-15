@@ -1,12 +1,10 @@
 {
-  "name": "m.asif_bmi-calculator",
-  "version": "1.0.2",
+  "name": "m19h_bmi-calculator",
+  "version": "1.0.1",
   "description": "BMI Calculator",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "m.asif_bmi-calculator": "index.js"
-  },
+  "bin": "index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -17,8 +15,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.18",
-    "typescript": "^5.4.5"
+    "inquirer": "^9.2.18"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
